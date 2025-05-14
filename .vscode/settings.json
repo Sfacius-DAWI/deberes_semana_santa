@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/81e2c949-c5b3-4e41-8200-cb7b20f3c2f9/resourceGroups/miPrimeraAzureGroup/providers/Microsoft.Web/sites/miPrimeraAzureWeb",
+    "appService.deploySubpath": "."
+}
