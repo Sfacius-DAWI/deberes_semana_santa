@@ -37,7 +37,6 @@ export const renderizarResultados = {
         columna.appendChild(nombre);
         columna.appendChild(lista);
         
-        // Añadir enlace si está disponible
         if (datos.enlace) {
             const enlace = document.createElement('a');
             enlace.href = datos.enlace;

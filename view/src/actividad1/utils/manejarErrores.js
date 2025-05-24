@@ -1,6 +1,6 @@
 export const manejarErrores = {
     mostrarError(mensaje) {
-        // Buscar contenedor de resultados
+
         const contenedor = document.getElementById('resultados');
         if (!contenedor) return;
         
@@ -13,7 +13,7 @@ export const manejarErrores = {
             </div>
         `;
         
-        // Auto-limpiar el error después de 5 segundos
+
         setTimeout(() => {
             if (contenedor.innerHTML.includes('error-container')) {
                 contenedor.innerHTML = '';
@@ -32,12 +32,10 @@ export const manejarErrores = {
         
         document.body.appendChild(alerta);
         
-        // Cerrar advertencia al hacer clic en X
         alerta.querySelector('.cerrar-advertencia').addEventListener('click', () => {
             alerta.remove();
         });
         
-        // Auto-cerrar después de 3 segundos
         setTimeout(() => {
             if (alerta.parentNode) {
                 alerta.remove();

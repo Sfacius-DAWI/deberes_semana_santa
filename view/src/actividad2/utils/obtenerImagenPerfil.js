@@ -23,7 +23,7 @@ export const obtenerImagenPerfil = async () => {
     } catch (error) {
         console.error('Error al obtener imagen de perfil:', error);
         
-        // Retornar imagen por defecto
+       
         return {
             url: 'https://via.placeholder.com/300x300/4F46E5/ffffff?text=👤',
             urlMedia: 'https://via.placeholder.com/150x150/4F46E5/ffffff?text=👤',

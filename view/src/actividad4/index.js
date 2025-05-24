@@ -12,7 +12,7 @@ import { cargarDatos } from "./utils/cargarDatos.js";
 
 document.addEventListener('DOMContentLoaded', async () => {
   try {
-    // Cargar CSS primero
+
     cargarCSS();
     
     await cargarNombres();

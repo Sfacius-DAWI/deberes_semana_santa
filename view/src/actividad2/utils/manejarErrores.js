@@ -13,7 +13,7 @@ export const manejarErrores = {
             </div>
         `;
         
-        // Añadir funcionalidad al botón de reintento
+       
         const botonReintentar = document.getElementById('reintentar');
         if (botonReintentar) {
             botonReintentar.addEventListener('click', () => {
@@ -23,7 +23,7 @@ export const manejarErrores = {
     },
 
     mostrarAdvertencia(mensaje) {
-        // Crear elemento de advertencia
+ 
         const advertencia = document.createElement('div');
         advertencia.className = 'advertencia-cv';
         advertencia.innerHTML = `
@@ -32,16 +32,16 @@ export const manejarErrores = {
             <button class="advertencia-cv-cerrar">&times;</button>
         `;
         
-        // Insertar al principio del body
+ 
         document.body.insertBefore(advertencia, document.body.firstChild);
         
-        // Manejar cierre
+
         const botonCerrar = advertencia.querySelector('.advertencia-cv-cerrar');
         botonCerrar.addEventListener('click', () => {
             advertencia.remove();
         });
         
-        // Auto-cerrar después de 4 segundos
+
         setTimeout(() => {
             if (advertencia.parentNode) {
                 advertencia.remove();

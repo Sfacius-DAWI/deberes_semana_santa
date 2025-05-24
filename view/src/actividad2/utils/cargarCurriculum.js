@@ -8,7 +8,7 @@ export const cargarCurriculum = async () => {
         
         const datos = await response.json();
         
-        // Validar que los datos tienen la estructura esperada
+    
         if (!datos.datosPersonales || !datos.experiencia || !datos.educacion) {
             throw new Error('El archivo de currículum no tiene la estructura correcta');
         }
@@ -18,7 +18,7 @@ export const cargarCurriculum = async () => {
     } catch (error) {
         console.error('Error al cargar currículum:', error);
         
-        // Retornar datos por defecto si falla la carga
+
         return {
             datosPersonales: {
                 nombre: "Error al cargar",
