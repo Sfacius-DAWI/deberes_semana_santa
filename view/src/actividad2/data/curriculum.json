@@ -1,0 +1,132 @@
+{
+    "datosPersonales": {
+        "nombre": "Santiago Facius",
+        "profesion": "Técnico en Sistemas Microinformáticos y Redes / Desarrollador Web",
+        "email": "faciusangulos@gmail.com",
+        "telefono": "+34 666 666 666",
+        "ubicacion": "Palma de Mallorca, España",
+        "linkedin": "https://www.linkedin.com/in/santiago-facius/",
+        "github": "https://github.com/Sfacius-DAWI",
+        "sitioWeb": "link"
+    },
+    "resumen": "Técnico especializado en Sistemas Microinformáticos y Redes con experiencia en desarrollo web y soluciones de IA. Actualmente cursando Grado Superior en Desarrollo de Aplicaciones Web. Experiencia práctica en mantenimiento de equipos, coordinación de TIC y desarrollo de microservicios.",
+    "experiencia": [
+        {
+            "puesto": "Desarrollador Web",
+            "empresa": "Air Europa",
+            "ubicacion": "Llucmajor, España",
+            "periodo": "08/04/2024 - 20/06/2025",
+            "descripcion": [
+                "Diseño e implementación de Soluciones de IA",
+                "Orquestación de Modelos de IA",
+                "Desarrollo de Microservicios",
+                "Mantenimiento y Evolución de Microservicios"
+            ]
+        },
+        {
+            "puesto": "Técnico en Sistemas Microinformáticos y Redes",
+            "empresa": "IES Sineu",
+            "ubicacion": "Sineu, España",
+            "periodo": "02/05/2023 - 22/06/2023",
+            "descripcion": [
+                "Mantenimiento de ordenadores, pantallas y proyectores",
+                "Coordinador del área de TIC",
+                "Soporte técnico a usuarios",
+                "Gestión de infraestructura tecnológica del centro"
+            ]
+        },
+        {
+            "puesto": "Técnico en Sistemas Microinformáticos y Redes",
+            "empresa": "Expert Neustadd",
+            "ubicacion": "Neustatd, Alemania",
+            "periodo": "17/03/2023 - 20/04/2023",
+            "descripcion": [
+                "Mantenimiento de ordenadores",
+                "Reparación de móviles, ordenadores, tablets y dispositivos electrónicos",
+                "Dependiente del área de informática",
+                "Atención al cliente técnico"
+            ]
+        }
+    ],
+    "educacion": [
+        {
+            "titulo": "Grado Superior en Desarrollo de Aplicaciones Web (DAW)",
+            "institucion": "CIFP Francesc de Borja Moll",
+            "ubicacion": "Palma de Mallorca, España",
+            "periodo": "20/09/2024 - 20/06/2025",
+            "descripcion": "Formación superior en desarrollo web completo",
+            "web": "https://curs25-26.cifpfbmoll.eu/"
+        },
+        {
+            "titulo": "Técnico en Sistemas Microinformáticos y Redes",
+            "institucion": "IES Sineu",
+            "ubicacion": "Sineu, España",
+            "periodo": "22/09/2021 - 22/06/2023",
+            "descripcion": "Ciclo formativo de grado medio en sistemas informáticos",
+            "web": "https://redols.caib.es/c07008481/"
+        },
+        {
+            "titulo": "Título de ESO",
+            "institucion": "IES Sineu",
+            "ubicacion": "Sineu, Balearic Islands, España",
+            "periodo": "01/09/2017 - 23/06/2021",
+            "descripcion": "Educación Secundaria Obligatoria",
+            "direccion": "Crta. Lloret de Vistalegre, s/n, 07510 Sineu",
+            "web": "https://redols.caib.es/c07008481/"
+        }
+    ],
+    "habilidades": {
+        "tecnicas": [
+            "Sistemas Microinformáticos y Redes",
+            "Desarrollo Web",
+            "Inteligencia Artificial",
+            "Microservicios",
+            "Mantenimiento de Hardware",
+            "Reparación de Dispositivos Electrónicos",
+            "Soporte Técnico",
+            "Coordinación TIC",
+            "HTML5 & CSS3",
+            "JavaScript",
+            "Typescript"
+            
+        ],
+        "blandas": [
+            "Resolución de problemas técnicos",
+            "Atención al cliente",
+            "Trabajo en equipo",
+            "Coordinación de proyectos",
+            "Adaptabilidad",
+            "Comunicación técnica",
+            "Organización",
+            "Aprendizaje continuo"
+        ]
+    },
+    "proyectos": [
+        {
+            "nombre": "google",
+            "descripcion": "Coordinación y mantenimiento del sistema tecnológico del IES Sineu",
+            "tecnologias": ["Administración de Sistemas", "Mantenimiento Hardware", "Soporte TIC"],
+            "enlace": "#"
+        },
+        {
+            "nombre": "Soluciones de IA para Air Europa",
+            "descripcion": "Desarrollo e implementación de microservicios con IA para la compañía aérea",
+            "tecnologias": ["IA", "Microservicios", "Desarrollo Web", "Typescript"],
+            "enlace": "#"
+        }
+    ],
+    "idiomas": [
+        {
+            "idioma": "Español",
+            "nivel": "Nativo"
+        },
+        {
+            "idioma": "Catalán",
+            "nivel": "Nativo"
+        },
+        {
+            "idioma": "Inglés",
+            "nivel": "Intermedio (B1)"
+        }
+    ]
+} 
